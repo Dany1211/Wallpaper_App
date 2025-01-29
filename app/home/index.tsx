@@ -16,7 +16,8 @@ const index = () => {
 
   const onPressClearText = () => {
     setSearchText("");
-  };
+  }
+
 
   return (
     <View className="px-4 pt-12">
@@ -51,7 +52,7 @@ const index = () => {
         </View>
 
 {/* categories starts here  */}
-        <Categories />
+        <Categories/>
 
         
       </ScrollView>
