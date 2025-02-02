@@ -30,6 +30,7 @@ const Categories = () => {
 
   return (
     <FlatList
+      className="h-[80px] mb-1"
       showsHorizontalScrollIndicator={false}
       horizontal={true}
       data={categories}

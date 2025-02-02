@@ -36,7 +36,8 @@ const WelcomeScreen = () => {
           Your Perfect Wallpaper Awaits!
         </Animated.Text>
         <Animated.View entering={FadeInDown.delay(800).springify()}>
-          <TouchableOpacity onPress={()=>router.push('/home')} className="bg-black mt-8 py-4 px-6 rounded-[50px]">
+          {/* @ts-ignore */}
+          <TouchableOpacity onPress={()=>router.push('home')} className="bg-black mt-8 py-4 px-6 rounded-[50px]">
             <Text className="text-white text-2xl">Get Started</Text>
           </TouchableOpacity>
         </Animated.View>
